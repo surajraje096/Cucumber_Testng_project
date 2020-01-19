@@ -1,0 +1,1226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "LoginPage of ShareKhan",
+        "description": "",
+        "id": "sharekhan-website-test;loginpage-of-sharekhan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11368764362,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "LoginPageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328958337,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240424100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validates sharekhan logo",
+            "match": {
+              "location": "LoginPageSteps.user_validates_sharekhan_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5430095848,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username",
+            "match": {
+              "location": "LoginPageSteps.user_enters_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95265220,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 794481221,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters password",
+            "match": {
+              "location": "LoginPageSteps.user_enters_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10221159406,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Homepage verification",
+        "description": "",
+        "id": "sharekhan-website-test;homepage-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5081450882,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on new Homepage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_new_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5140535286,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on menu button",
+            "match": {
+              "location": "HomePageSteps.user_clicks_on_menu_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2207929503,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on switch to old site button",
+            "match": {
+              "location": "HomePageSteps.user_clicks_on_switch_to_old_site_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17742312,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on homepage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71088417,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the user profile",
+            "match": {
+              "location": "HomePageSteps.user_verifies_the_user_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 804703991,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user checks all panel headings of Home Tab",
+            "match": {
+              "location": "HomePageSteps.user_checks_all_panel_headings_of_home_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 628849433,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user checks all panel elements of Home Tab",
+            "match": {
+              "location": "HomePageSteps.user_checks_all_panel_elements_of_home_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validating IPOBonds Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-ipobonds-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 908541877,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on IPO tab",
+            "match": {
+              "location": "IPOBondsPageSteps.user_clicks_on_IPO_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64667043,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is on IPOBonds Page",
+            "match": {
+              "location": "IPOBondsPageSteps.user_is_on_IPOBonds_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219553206,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verifies top side links",
+            "match": {
+              "location": "IPOBondsPageSteps.user_verifies_top_side_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 719688339,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verifies all main links",
+            "match": {
+              "location": "IPOBondsPageSteps.user_verifies_all_main_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 231653011,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user verifies all bottom links",
+            "match": {
+              "location": "IPOBondsPageSteps.user_verifies_all_bottom_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Validating Mutual Funds Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-mutual-funds-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 836650074,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on Mutual Funds tab",
+            "match": {
+              "location": "MutualFundsPageSteps.user_clicks_on_Mutual_Funds_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76407634,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user is on Mutual Funds page",
+            "match": {
+              "location": "MutualFundsPageSteps.user_is_on_Mutual_Funds_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 430476158,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user verifies links of page",
+            "match": {
+              "location": "MutualFundsPageSteps.user_verifies_links_of_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 514785356,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user veries elements of page",
+            "match": {
+              "location": "MutualFundsPageSteps.user_veries_elements_of_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Validating Portfolio Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-portfolio-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8991615493,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user clicks on Portfolio tab",
+            "match": {
+              "location": "PortofoilPageSteps.user_clicks_on_Portfolio_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10352771,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user is on Portfolio page",
+            "match": {
+              "location": "PortofoilPageSteps.user_is_on_Portfolio_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128134426,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user verifies my portfolio bar",
+            "match": {
+              "location": "PortofoilPageSteps.user_verifies_my_portfolio_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 868216988,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user verifies all black buttons",
+            "match": {
+              "location": "PortofoilPageSteps.user_verifies_all_black_buttons()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "Validating OptionChain Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-optionchain-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8668204444,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicks on OptionChain tab",
+            "match": {
+              "location": "OptionChainPageSteps.user_clicks_on_OptionChain_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19277238,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user is on OptionChain page",
+            "match": {
+              "location": "OptionChainPageSteps.user_is_on_OptionChain_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1544537384,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user verifies option chain bar",
+            "match": {
+              "location": "OptionChainPageSteps.user_verifies_option_chain_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 448462507,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user verifies all black button",
+            "match": {
+              "location": "OptionChainPageSteps.user_verifies_all_black_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Validating News Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-news-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8651523238,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user click on News tab",
+            "match": {
+              "location": "NewsPageSteps.user_click_on_News_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152571230,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user is on news page",
+            "match": {
+              "location": "NewsPageSteps.user_is_on_news_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1220220317,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user verifies all links of news page",
+            "match": {
+              "location": "NewsPageSteps.user_verifies_all_links_of_news_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 868727299,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user verifies all headings of news page",
+            "match": {
+              "location": "NewsPageSteps.user_verifies_all_headings_of_new_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1744699885,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user verifies all news headings",
+            "match": {
+              "location": "NewsPageSteps.user_verifies_all_news_headings()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "Validating Research Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-research-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8669244453,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click on Research tab",
+            "match": {
+              "location": "ResearchPageSteps.user_click_on_Research_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63273521,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user is on Research page",
+            "match": {
+              "location": "ResearchPageSteps.user_is_on_Research_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 564109406,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user verifies all links of research page",
+            "match": {
+              "location": "ResearchPageSteps.user_verifies_all_links_of_research_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169472525,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user verifies all research headings",
+            "match": {
+              "location": "ResearchPageSteps.user_verifies_all_research_headings()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 67,
+        "name": "Validating CS Page",
+        "description": "",
+        "id": "sharekhan-website-test;validating-cs-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8733356140,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user click on CS tab",
+            "match": {
+              "location": "CSPageSteps.user_click_on_CS_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105248513,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user is on CS page",
+            "match": {
+              "location": "CSPageSteps.user_is_on_CS_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408614860,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user verifies all label of CS page",
+            "match": {
+              "location": "CSPageSteps.user_verifies_all_label_of_CS_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1324298820,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user verifies all content of CS page",
+            "match": {
+              "location": "CSPageSteps.user_verifies_all_content_of_CS_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "sharekhan website test",
+    "description": "",
+    "id": "sharekhan-website-test",
+    "keyword": "Feature",
+    "uri": "AllFunctions.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "LoginPage of ShareKhan",
+        "description": "",
+        "id": "sharekhan-website-test;loginpage-of-sharekhan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5664580946,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "LoginPageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13305166,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80410872,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validates sharekhan logo",
+            "match": {
+              "location": "LoginPageSteps.user_validates_sharekhan_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5359969325,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username",
+            "match": {
+              "location": "LoginPageSteps.user_enters_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81852289,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 641061563,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters password",
+            "match": {
+              "location": "LoginPageSteps.user_enters_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10151213059,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Homepage verification",
+        "description": "",
+        "id": "sharekhan-website-test;homepage-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5097817918,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on new Homepage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_new_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5151798635,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on menu button",
+            "match": {
+              "location": "HomePageSteps.user_clicks_on_menu_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1753366631,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on switch to old site button",
+            "match": {
+              "location": "HomePageSteps.user_clicks_on_switch_to_old_site_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18063324,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on homepage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61922193,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the user profile",
+            "match": {
+              "location": "HomePageSteps.user_verifies_the_user_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 649093128,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user checks all panel headings of Home Tab",
+            "match": {
+              "location": "HomePageSteps.user_checks_all_panel_headings_of_home_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 645174846,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user checks all panel elements of Home Tab",
+            "match": {
+              "location": "HomePageSteps.user_checks_all_panel_elements_of_home_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Account Page Verification",
+        "description": "",
+        "id": "sharekhan-website-test;account-page-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2709840178,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on Account tab",
+            "match": {
+              "location": "AccountPageSteps.user_clicks_on_Account_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8917056,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on Account Page",
+            "match": {
+              "location": "AccountPageSteps.user_is_on_Account_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997881779,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user checks all panel headings of Account Tab",
+            "match": {
+              "location": "AccountPageSteps.user_checks_all_panel_headings_of_account_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 505046670,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user checks all panel elements of Account Tab",
+            "match": {
+              "location": "AccountPageSteps.user_checks_all_panel_elements_of_account_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1015807689,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verifies all fields of form of Fund Transfer",
+            "match": {
+              "location": "AccountPageSteps.user_verifies_all_fields_of_form_of_Fund_Transfer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113447141,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verifies submit button",
+            "match": {
+              "location": "AccountPageSteps.user_verifies_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Profile Page Verification",
+        "description": "",
+        "id": "sharekhan-website-test;profile-page-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 807046863,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on Profile Tab",
+            "match": {
+              "location": "ProfilePageSteps.user_clicks_on_Profile_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63124704,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on Profile Page",
+            "match": {
+              "location": "ProfilePageSteps.user_is_on_Profile_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212725863,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user verifies all headings of Profile tab",
+            "match": {
+              "location": "ProfilePageSteps.user_verifies_all_headings_of_Profile_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239890982,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user verifies all elements of Profile tab",
+            "match": {
+              "location": "ProfilePageSteps.user_verifies_all_elements_of_Profile_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884575472,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user verifies all fields of Trading Profile",
+            "match": {
+              "location": "ProfilePageSteps.user_verifies_all_fields_of_Trading_Profile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "TradeNow Verification",
+        "description": "",
+        "id": "sharekhan-website-test;tradenow-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5981038071,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks on TradeNow tab",
+            "match": {
+              "location": "TradeNowPageSteps.user_clicks_on_TradeNow_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10269901301,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on close button",
+            "match": {
+              "location": "TradeNowPageSteps.user_clicks_on_close_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72081673,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user is on TradeNow Page",
+            "match": {
+              "location": "TradeNowPageSteps.user_is_on_TradeNow_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 635655680,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user verifies all headings of TradeNow tab",
+            "match": {
+              "location": "TradeNowPageSteps.user_verifies_all_headings_of_TradeNow_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 720512251,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user verifies all elements of TradeNow tab",
+            "match": {
+              "location": "TradeNowPageSteps.user_verifies_all_elements_of_TradeNow_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1913505870,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user verifies all fields of New Order Form",
+            "match": {
+              "location": "TradeNowPageSteps.user_verifies_all_fields_of_New_Order_Form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132639994,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user verifies placeOrder and reset button",
+            "match": {
+              "location": "TradeNowPageSteps.user_verifies_placeOrder_and_reset_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "Reports Page Verification",
+        "description": "",
+        "id": "sharekhan-website-test;reports-page-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1284875387,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user clicks on Reports Tab",
+            "match": {
+              "location": "ReportPageSteps.user_clicks_on_Reports_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108024153,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user is on Reports Page",
+            "match": {
+              "location": "ReportPageSteps.user_is_on_Reports_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070076347,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user verifies all report links",
+            "match": {
+              "location": "ReportPageSteps.user_verifies_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678695199,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user verifies all headings of Report Page",
+            "match": {
+              "location": "ReportPageSteps.user_verifies_all_headings_of_Report_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 474557398,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user verifies all elements of Report Page",
+            "match": {
+              "location": "ReportPageSteps.user_verifies_all_elements_of_Report_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Market Watch Page Verification",
+        "description": "",
+        "id": "sharekhan-website-test;market-watch-page-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3017349458,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks on MarketWatch Tab",
+            "match": {
+              "location": "MarketWatchSteps.user_clicks_on_MarketWatch_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27796879,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user is on MarketWatch Page",
+            "match": {
+              "location": "MarketWatchSteps.user_is_on_MarketWatch_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 905114520,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user verifies top links",
+            "match": {
+              "location": "MarketWatchSteps.user_verifies_top_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 308986047,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user verifies top picks  button",
+            "match": {
+              "location": "MarketWatchSteps.user_verifies_top_picks_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 890356534,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user verifies all orange button on the page",
+            "match": {
+              "location": "MarketWatchSteps.user_verifies_all_orange_button_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 718164817,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user verifies all black button on the page",
+            "match": {
+              "location": "MarketWatchSteps.user_verifies_all_black_button_on_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "sharekhan website test",
+    "description": "",
+    "id": "sharekhan-website-test",
+    "keyword": "Feature",
+    "uri": "sharekhan.feature"
+  }
+]
